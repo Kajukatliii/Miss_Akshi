@@ -5,7 +5,7 @@ from motor import motor_asyncio
 from Miss_Akshi import MONGO_DB_URI 
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
-from Miss_Akshi.Config import get_int_key, get_str_key
+from Miss_Akshi.config import get_int_key, get_str_key
 from Miss_Akshi import LOGGER as log
 
 MONGO_PORT = get_int_key("27018")
